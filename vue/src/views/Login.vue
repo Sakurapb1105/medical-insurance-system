@@ -108,7 +108,7 @@ export default {
               localStorage.setItem('userToken', response.token);
               localStorage.setItem('userInfo', JSON.stringify(response.userInfo));
               ElMessage.success('登录成功！');
-              // this.$router.push('/dashboard');
+              this.$router.push('/dashboard');
             } else {
               ElMessage.error(response.message || '登录失败');
             }

@@ -103,7 +103,7 @@
 import { ElMessage } from 'element-plus'
 
 export default {
-  name: 'Register',
+  name: 'UserRegister',
   data() {
     const validateConfirmPassword = (rule, value, callback) => {
       if (value !== this.registerForm.password) {

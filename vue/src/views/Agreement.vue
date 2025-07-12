@@ -142,7 +142,7 @@
 import { ArrowLeft } from '@element-plus/icons-vue'
 
 export default {
-  name: 'Agreement',
+  name: 'UserAgreement',
   components: {
     ArrowLeft
   },
